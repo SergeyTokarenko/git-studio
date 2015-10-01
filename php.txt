@@ -1,0 +1,4 @@
+<?php
+	$string = "my";
+	echo "Hellow".$string."friends";
+?>
