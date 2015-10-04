@@ -1,0 +1,25 @@
+ body {
+ 	margin: 0px auto;
+ 	padding: 0px auto;
+ 	background: url(image/jcode.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1800px;
+ }
+ h1 {
+ 	color: #417FA9;
+ }
+ .Boss {
+ 	margin: 10px;
+ 	padding: 0px 0px 30px 5px;
+ }
+ label {
+ 	color: black;
+
+ }
+ input {
+ 	color: black;
+ }
+

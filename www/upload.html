@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Загрузка файла</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="Boss">
+	<h1>Загрузить файл</h1>
+
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+	<input type="hidden" name="max_file_size" value="200000"> <!--Макривальный обьем файла в байтах-->
+	<label for="userfile">Выберите файл:</label>
+	<input type="file" name="userfile">
+	<input type="submit" value="Загрузить">
+	</form>
+</div>
+</body>
+</html>
