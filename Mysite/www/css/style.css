@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,500,600);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+* {
+	margin: 0px auto;
+	padding: 0px auto;
+	outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: white;
+	color: #333;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%; /*Высота между строк*/
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 30%;
+    height: 20px;
+    margin: 5px 0px;
+    color: black;
+    background: #ffffff;
+    border: 1px solid silver;
+    padding: 1px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border: 1px solid #4797f8;
+}
+
+
+textarea {
+    width: 50%;
+    height: 250px;
+    margin: 5px 0px;
+    color: black;
+    background: #ffffff;
+    border: 1px solid silver;
+}
+
+input[type="button"] {
+    width: 10%;
+    padding: 10px 0px;
+    background: #ffffff;
+    border: 2px solid #3b8eef;
+    margin: 5px 0px;
+    color: black;
+}
+
+input[type="button"]:hover {
+    background: #eeefef;
+    border: 2px solid #3b8eef;
+    color: black;
+}
+
+
+p {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    line-height: 23px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input  {
+    width: 10%;
+    background: #dddddd;
+    text-align: center;
+    float: left;
+    color: #333;
+    padding: 0.4%;
+}
+
+.input_min {
+    width: 20%;
+    background: #dddddd;
+    text-align: center;
+    float: left;
+    color: #333;
+    padding: 0.4%;
+}
+
+.input:hover, .input_min:hover {
+    color: #ffffff;
+    background: #898989;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+}
+
+a, a:hover {
+    -webkit-transition: 0.4s ease; /* Установка времени анимации */
+	-moz-transition: 0.4s ease; /* Установка времени анимации */
+	-ms-transition: 0.4s ease; /* Установка времени анимации */
+	-o-transition: 0.4s ease; /* Установка времени анимации */
+	transition: 0.4s ease; /* Установка времени анимации */
+}
+
+.clear {
+    clear:both;
+}
+
+/* Стили для шапки */
+
+header {
+    width: 99%;
+    float: left;
+    padding: 0.5%;
+    background:  #eeefef;
+    border-bottom: 2px solid silver;
+    margin-bottom: 20px;
+}
+
+header #logo {
+    width: 40%;
+    float: left;
+}
+
+header #logo  span {
+    color: #4797f8;
+}
+
+header #logo a {
+    color: #939393;
+    font-size: 2em;
+    font-family: Times New, sans-serif;
+}
+
+header #menuHead {
+    width: 24%;
+    float: left;
+}
+
+header #menuHead div {
+    float: left;
+    margin-right: 3%;
+    padding: 5px;
+    background: #dddbdb;
+    color: #454545;
+}
+
+header #menuHead div:hover {
+    background: #e5e5e5;
+    color: #4797f8; 
+    cursor: pointer;
+}
+
+header #regAuth {
+    width: 30%;
+    float: right;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+/*Стили для всего документа*/
+
+
+#wrapper {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+
+/*Стили для левой колонки*/
+
+#wrapper #leftCol {
+    width: 70%;
+    margin-right: 10%;
+    float:left;
+}
+
+#wrapper #leftCol #bigArticle {
+    width: 78%;
+    margin-left:10%;
+    background: #efefef;
+    padding: 1%;
+    border: 1px solid #dddddd;
+    float: left;
+}
+
+#wrapper #leftCol .article {
+    width: 40%;
+    margin-left: 5%;
+    background: #efefef;
+    padding: 1%;
+    border: 1px solid #dddddd;
+    float: left;
+}
+
+/* messageShow */
+
+#messageShow {
+    font-size: 1.2em;
+    color: red;
+
+    
+}
+
+/*Стили для правой колонки*/
+
+#wrapper #rightCol {
+    width: 20%;
+    float: left;
+}
+
+#wrapper #rightCol .banner {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    border: 2px solid silver;
+    box-sizing: border-box;
+}
+
+/*Стили для "О нас"*/
+
+#about_us {
+    width: auto;
+    height: auto;
+    border: 1px solid #dddddd;
+    background: #eeefef;
+    padding: 1%;
+}
+
+/* Стили для футера */
+
+footer {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background: #eeefef;
+    border-top: 2px solid silver;
+    margin-top: 10px;
+}    
+
+footer #social {
+    float: left;
+    width: 50%;
+    
+}
+
+footer #social img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 5px;
+    
+}
+
+
+footer #rights {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-size: 1.1em;
+    line-height: 30px; /*Выровнял текст по вертикали*/
+}
+
+
+
+
+
+
